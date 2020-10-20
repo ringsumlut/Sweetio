@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 40px;
+  color: #c38d94;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.websiteTitle {
+  margin-left: 40px;
+  color: #c38d94;
+  font-family: "Lobster", cursive;
+  font-size: 40px;
+}
+
+section {
+  min-height: 100%;
+  width: 100%;
+}
+
+#home {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(86, 86, 118, 0.5),
+      rgba(86, 86, 118, 0.5)
+    ),
+    url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stress {
+  font-size: 60px;
+  color: #c38d94;
+  font-family: "Lobster", cursive;
+}
+.sweet {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: #ffffff;
+  width: 500px;
+  text-align: right;
+  margin-left: 800px;
+}
+
+#about {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.top {
+  height: 75%;
+  width: 100%;
+  background-color: #c38d94;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.top h3 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-top: 146px;
+  font-weight: 400;
+}
+
+.top p {
+  width: 606px;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 146px;
+  text-align: left;
+  letter-spacing: 0.6px;
+}
+
+.bottom {
+  height: 25%;
+  width: 100%;
+  background-color: #cc9ea4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.chef {
+  height: 50%;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.chef img {
+  height: 115px;
+  width: 115px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.chef div h4 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.chef div h4 span {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+}
+.chef div p {
+  width: 250px;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+#products {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+}
+.top2 {
+  height: 75%;
+  width: 100%;
+  background-color: #a76571;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.top2 h3 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 60px;
+}
+.foodBox {
+  height: 80%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bottom2 {
+  height: 25%;
+  width: 100%;
+  background-color: #c38d94;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottom2 p {
+  width: 240px;
+  height: 137px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+.food {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.cookie {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(167, 101, 113, 0.5),
+      rgba(167, 101, 113, 0.5)
+    ),
+    url("../images/cookies.jpg");
+}
+
+.cookieCream {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(167, 101, 113, 0.5),
+      rgba(167, 101, 113, 0.5)
+    ),
+    url("../images/cookies-cream.jpg");
+}
+
+.brownie {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(167, 101, 113, 0.5),
+      rgba(167, 101, 113, 0.5)
+    ),
+    url("../images/brownies.jpg");
+}
+
+#contact {
+  background-color: #565676;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.top3 {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#contact {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #565676;
+}
+
+#contact h3 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.contactInfo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.text {
+  border: #ffffff solid 3px;
+  background-color: #565676;
+  width: 567px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contactPage {
+  height: 100%;
+  width: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.submit {
+  border: 3px solid #ffffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 28px;
+  font-size: 18px;
+  background-color: #565676;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 38px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  width: 250px;
+  height: 53px;
+  margin-top: 30px;
+}
